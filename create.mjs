@@ -2,7 +2,7 @@
 
 import { PangeaConfig, AuditService, PangeaErrors } from "pangea-node-sdk";
 
-const token = "pts_mhmo2pkhx2gqmmsi2utgnzm3pn265ik6";
+const token = "token";
 const config = new PangeaConfig({ domain: "aws.us.pangea.cloud" });
 // const audit = new AuditService(token, config);
 const audit = new AuditService(token, config);
